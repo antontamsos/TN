@@ -1,9 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Coursera</title>
+	<meta charset="utf-8">
+	<title>TN first page</title>
+<link rel="stylesheet" href="style.css">
+<style >
+*	{ margin: 0;
+	 padding:0;
+	}
+h1{ position: relative ;
+	margin-left: 45%;}
+
+h2{
+	float: right; 
+	margin-top: -5px;
+	margin-right: -5px;
+    border:5px solid black;
+    width:center;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    
+	}
+
+.row {width: 100%;}
+@media (min-width: 992px) {
+   .containbox1, .containbox2, .containbox3 {float: left;}
+    .containbox1 {
+	width:33.33%;
+		}
+	.containbox2 {
+	width:33.33%;
+		}
+	.containbox3 {
+	width:33.33%;
+		}
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+   .containbox11, .containbox22, .containbox33 {	float: left;}
+    .containbox11 {
+	width:50%;
+		}
+	.containbox22 {
+	width:50%;
+		}
+	.containbox33 {
+	width:100%;
+		}
+  }
+
+p{clear:right;} 
+#box {
+	background-color:gray;
+    padding:0px 0px 5px 5px;
+    border:5px solid black;
+    margin: 5px;
+    }
+ #color1{background-color: lightpink;}
+ #color2{background-color: red;}
+ #color3{background-color: blue;}
+</style>
 </head>
+
+
 <body>
-<h1>My first page, Finally,fsadlkfnasdklnfasldkjfased made it</h1>
+
+<h1>Our Menu</h1>
+
+<div class="row">
+	<div class="containbox1 containbox11 ">	
+		<div id="box">
+		<h2 id="color1" >Chicken</h2>
+		 <p >
+			lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  		 </p>
+  		 	</div>
+ 		 	
+  	</div></div>
+<div class="row"> 
+	<div class="containbox2 containbox22  ">	
+		<div id="box">
+		<h2 id="color2" >Beef</h2>
+		 <p >
+			lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  		 </p>
+  		 	</div>
+  	</div></div>
+<div class="row"> 
+ 
+	<div class="containbox3  containbox33 ">	
+		<div id="box">
+		<h2 id="color3" >Sushi</h2>
+		 <p >
+			lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  		 </p>
+  	</div></div>
+
+</div>
+
 </body>
 </html>
