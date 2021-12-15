@@ -1,0 +1,159 @@
+body { 
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.42857143;
+  	color: black;
+	background-color: lightblue ; 
+	font-size:18px;
+
+ }
+ 
+
+*	{ margin: 0;
+	 padding:0;
+	}
+#h1{ text-align: center;}
+
+#mycolor1 { 
+	background-color: lightpink;
+	margin-left: 42.5%;
+	margin-top: -2.5px;
+	text-align: center;
+    border:2px solid black;
+    padding: 0px 10px 0px 10px;
+    width: 170px;
+    
+	}
+#mycolor2 {
+	background-color: red; 
+	margin-left: 42.5%;
+	margin-top: -2.5px;
+	text-align: center;
+    border:2px solid black;
+    padding: 0px 10px 0px 10px;
+    width: 170px;
+    box-sizing: border-box;  
+	}
+#mycolor3 { 
+	background-color: blue;
+	margin-left: 42.5%;
+	margin-top: -2.5px;
+	text-align: center;
+    border:2px solid black;
+    padding: 0px 10px 0px 10px;
+    width: 170px;
+    box-sizing: border-box;  
+	}
+.row1 {
+	width: 100%;}
+
+@media (min-width: 992px) {
+   .containbox1, .containbox2,  {float:left;}
+    .containbox1 {
+	width:100%;
+		}
+	.containbox2 {
+	width:100%;
+		}
+	.containbox3 {
+	width:100%;
+		}
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+   .containbox11, .containbox22,  {	float: left;}
+    .containbox11 {
+	width:100%;
+		}
+	.containbox22 {
+	width:100%;
+		}
+	.containbox33 {
+	width:100%;
+		}
+  }
+
+
+#box {
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color:gray;
+    padding:0px 0px 5px 5px;
+    border:5px solid black;
+    margin: 5px;
+
+    }
+
+
+#header-nav
+	{ background-color: yellow;
+	max-height: 63px;
+	border-radius: 0;
+	border:0;		}
+
+#foodlogo{
+	
+	font-size:30px;
+	color:bold;
+	font-weight:800;
+		}
+
+.navbar-brand {
+  padding-top: 25px;
+  color: solid black;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#collapsable-nav {background-color: yellow;}
+
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+	display:none !important;}}
+
+.container {
+    height: 970px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: blue;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
