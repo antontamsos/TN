@@ -19,8 +19,8 @@ var byeSpeaker ={};
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
 // byeSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-byeSpeaker.speak  = function (a) {
-  console.log(speakWord + " " + a);
+byeSpeaker.speak  = function (lol) {
+  console.log(speakWord + " " + lol);
 }
 
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
@@ -28,4 +28,3 @@ byeSpeaker.speak  = function (a) {
 // xxxx.xxxx = byeSpeaker;
 window.byeSpeaker=byeSpeaker;
 })(window);
-console.log(window);
